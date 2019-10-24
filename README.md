@@ -1,11 +1,13 @@
 # insurance-automation-test
 Insurance form submission automation
 
-# Brief description
+## Description
 This is a sample automation framework for Insurance site with one end to end test for insurance form submission. 
 It is build using Puppeteer. Chai is used for assertions. 
 Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
-Both puppeteer and chai dependencies are added in package.json
+
+## About the project
+Puppeteer and chai dependencies are added in package.json
 There are two more json files, config.json - which has url and credential details and formData.json - which has data used in form submission.
 The end to end test is in test.js file
 Page folder contains js files with page specific operations (POM)
