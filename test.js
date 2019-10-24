@@ -45,11 +45,11 @@ var logger = new ConsoleLogger();
 
     await carDetailsPage.fillCarDetails(page);
     await page.click('#autoquote\\:next');
-	const personalInfo = await carDetailsPage.getText(page,"#quote-result > h2:nth-child(5)");
-	const automobileInfo = await carDetailsPage.getText(page,"#quote-result > h2:nth-child(11)");
+    const personalInfo = await carDetailsPage.getText(page,"#quote-result > h2:nth-child(5)");
+    const automobileInfo = await carDetailsPage.getText(page,"#quote-result > h2:nth-child(11)");
 
-	assert.equal('Personal Information', personalInfo);
-	assert.equal('Automobile Information',automobileInfo);
+    assert.equal('Personal Information', personalInfo);
+    assert.equal('Automobile Information',automobileInfo);
 	
     await page.screenshot({ path: './screenshot/carDetails.png' });
     logger.logStepCompletionProgress('Vehicle Details Step');
