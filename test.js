@@ -64,6 +64,8 @@ var logger = new ConsoleLogger();
     assert.equal('Congratulations!', paymentConfirmationText);
     await page.screenshot({ path: './screenshot/confirmation.png' });
     logger.logStepCompletionProgress('Purchase Completion');
+    logger.logStepCompletionProgress('Test Completed Successfully');
+
     await browser.close();
 
 })();
