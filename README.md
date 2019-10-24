@@ -14,6 +14,7 @@ Page folder contains js files with page specific operations (POM).
 consoleLogger is a custom log generation file for indicating progress of the test.
 The test.js has assertions at each stage of form submission.
 Also screenshot is taken at each stage and is available for viewing in screenshot folder.
+Output is on the console.
 
 
 ## Prerequisites:
