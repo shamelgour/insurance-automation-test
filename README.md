@@ -20,7 +20,7 @@ Also screenshot is taken at each stage and is available for viewing in screensho
 Node, Git
 
 ## To run the test
-1. Clone project run : https://github.com/shamelgour/insurance-automation-test.git
+1. Clone project run : git clone https://github.com/shamelgour/insurance-automation-test.git
 2. Go to folder "insurance-automation-test" through terminal.
 3. run: npm install (This might take some time as it will install puppeteer , Chromium and Chai)
 4. run: node test.js
